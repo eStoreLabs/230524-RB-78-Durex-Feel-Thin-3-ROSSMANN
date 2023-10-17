@@ -1,9 +1,10 @@
 :root {
-  --es-navy-bg: #041a71;
+  --es-red-bg: #7b040a;
+  --es-red-bg-darker: #380100;
   --es-navy-txt: #001e6f;
-  --es-size-thin: #01a3a4;
-  --es-size-regular: #051b72;
-  --es-size-wide: #e87029;
+  --es-size-thin: #8cc798;
+  --es-size-regular: #fff;
+  --es-size-wide: #ff8415;
 }
 @font-face {
   font-family: "One Night Sans Extended Thin";
@@ -155,7 +156,8 @@
   padding: 0;
   overflow: hidden;
   color: var(--es-navy-txt);
-  background: #fff;
+  background: var(--es-red-bg-darker);
+  color: #fff;
 }
 
 #es-durex.es-durex html,
@@ -187,7 +189,7 @@ section {
   text-transform: uppercase;
   text-align: center;
   line-height: 1;
-  color: var(--es-navy-txt);
+  color: #fff;
   margin-bottom: 2rem;
 }
 
@@ -247,9 +249,9 @@ section {
     position: relative;
     z-index: 2;
     background-image: url("../img/kv-desktop.png");
-    background-size: cover;
+    background-size: 100% 100%;
     background-position: center;
-    min-height: 340px;
+    min-height: 360px;
     padding: unset;
   }
   #es-durex.es-durex .es-kv__title {
@@ -292,7 +294,7 @@ section {
 #es-durex.es-durex .es-features {
   padding: 2rem;
   background-image: url("../img/bg.png");
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 #es-durex.es-durex .es-features__feature {
@@ -398,8 +400,7 @@ section {
   width: 100vw;
   display: flex;
   flex-direction: column;
-  background-image: url(/assets/img/slider-bg.png);
-  background-size: cover;
+  background-color: var(--es-red-bg);
 }
 #es-durex.es-durex .es-slider .es-slide__img {
   max-width: 100%;
@@ -496,7 +497,7 @@ section {
 
 #es-durex.es-durex .es-benefits {
   padding: 45px 16px;
-  background-color: var(--es-navy-bg);
+  background-color: var(--es-red-bg-darker);
 }
 
 #es-durex.es-durex .es-benefits__title {
@@ -718,8 +719,15 @@ section {
 /***************************** info styles ***************************/
 
 #es-durex.es-durex .es-info {
-  background-image: url(/assets/img/fit-bg.png);
-  background-size: 100% 100%;
+  background: rgb(147, 12, 32);
+  background: linear-gradient(
+    133deg,
+    rgba(147, 12, 32, 1) 0%,
+    rgba(165, 13, 36, 1) 36%,
+    rgba(197, 16, 43, 1) 50%,
+    rgba(150, 12, 33, 1) 67%,
+    rgba(124, 10, 27, 1) 100%
+  );
   padding-top: 3rem;
 }
 
@@ -730,7 +738,7 @@ section {
   text-align: center;
   text-transform: uppercase;
   color: #fff;
-  background-color: var(--es-navy-bg);
+  background-color: var(--es-red-bg);
   width: 80vw;
   height: 80vw;
   max-width: 400px;
@@ -990,10 +998,9 @@ section {
   margin-block: 16px;
   font-size: 16px;
   text-align: center;
-  color: var(--es-navy-bg);
+  color: #fff;
   font-family: "One Night Sans Extended";
   text-transform: uppercase;
-  max-width: 11ch;
 }
 
 #es-durex.es-durex .es-cross__text--bottom {
@@ -1003,10 +1010,10 @@ section {
 
 #es-durex.es-durex .es-cross__link {
   margin: 0;
-  background-color: var(--es-navy-bg);
+  background-color: #fff;
   padding: 12px 24px;
   text-decoration: none;
-  color: #fff;
+  color: var(--es-red-bg-darker);
   font-size: 10px;
   letter-spacing: 2px;
   line-height: 1.2;
@@ -1019,12 +1026,14 @@ section {
 }
 
 #es-durex.es-durex .es-cross__link:hover {
-  background-color: #005baa;
+  background-color: var(--es-red-bg-darker);
+  color: #fff;
 }
 
 @media (min-width: 768px) {
   #es-durex.es-durex .es-cross__container {
     flex-direction: row;
+    justify-content: center;
   }
   #es-durex.es-durex .es-cross__product {
     flex-basis: 33%;
@@ -1036,9 +1045,15 @@ section {
 
 #es-durex.es-durex .es-faq {
   padding: 2rem;
-  background-image: url(/assets/img/faq-bg.png);
-  background-size: cover;
-  background-position: center;
+  background: rgb(147, 12, 32);
+  background: linear-gradient(
+    133deg,
+    rgba(147, 12, 32, 1) 0%,
+    rgba(165, 13, 36, 1) 36%,
+    rgba(197, 16, 43, 1) 50%,
+    rgba(150, 12, 33, 1) 67%,
+    rgba(124, 10, 27, 1) 100%
+  );
 }
 
 #es-durex.es-durex .es-faq__title {
@@ -1059,7 +1074,7 @@ section {
 
 #es-durex.es-durex .es-faq__single {
   font-family: "One Night Sans Medium";
-  background: #e7eced;
+  background: var(--es-red-bg);
   position: relative;
   margin: 8px 0;
   padding: 16px;
