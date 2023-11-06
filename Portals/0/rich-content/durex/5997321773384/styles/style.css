@@ -129,7 +129,7 @@
 /*********************************************************************/
 
 #es-durex.es-durex {
-  font-family: "One Night Sans Extended", sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
   font-size: 16px;
   line-height: 1.2;
   max-width: 959px;
@@ -162,7 +162,6 @@ section {
 }
 
 #es-durex.es-durex .es-kv__title {
-  font-family: "One Night Sans Extended", sans-serif;
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -175,10 +174,9 @@ section {
 }
 
 #es-durex.es-durex .es-kv__title--second {
-  font-family: "One Night Sans Extended Thin", sans-serif;
+  font-weight: 300;
 }
 #es-durex.es-durex .es-kv__text {
-  font-family: "One Night Sans Extended", sans-serif;
   line-height: 1;
   color: var(--es-navy-txt);
   text-align: center;
@@ -316,12 +314,14 @@ section {
   font-size: clamp(0.875rem, 0.7917rem + 0.3704vw, 1.125rem);
   text-align: center;
   text-transform: uppercase;
-  font-family: "One Night Sans Thin";
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 100;
 }
 
 #es-durex.es-durex .es-features .es-feature__text--bold {
   display: block;
-  font-family: "One Night Sans Extended Black", sans-serif;
+  font-weight: 800;
+  font-family: 'Encode Sans Expanded', sans-serif;
 }
 @media (min-width: 768px) {
   #es-durex.es-durex .es-features {
@@ -355,7 +355,7 @@ section {
     align-items: center;
   }
   #es-durex.es-durex .es-features .es-feature__img {
-    max-height: 110px;
+    min-height: 110px;
   }
   #es-durex.es-durex .es-features .es-feature__text {
     margin-bottom: 0;
@@ -393,7 +393,7 @@ section {
   padding-inline: 4rem;
 }
 #es-durex.es-durex .es-slider .es-slide__title {
-  font-family: "One Night Sans Extended Black", sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
   text-transform: uppercase;
   font-size: clamp(1.375rem, 0.9583rem + 1.8519vw, 2.625rem);
 }
@@ -413,12 +413,14 @@ section {
   transform: translate(-50%, -50%);
 }
 #es-durex.es-durex .es-slider .es-slide__text {
-  font-family: "One Night Sans Medium", sans-serif;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
   font-size: clamp(0.875rem, 0.7917rem + 0.3704vw, 1.125rem);
 }
 #es-durex.es-durex .es-slider .es-slide__text--smaller {
-  font-family: "One Night Sans Medium", sans-serif;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
   font-size: clamp(0.75rem, 0.6667rem + 0.3704vw, 1rem);
 }
@@ -505,7 +507,7 @@ section {
 }
 
 #es-durex.es-durex .es-benefits__title--strong {
-  font-family: "One Night Sans Extended Black", sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
   display: block;
 }
 
@@ -526,7 +528,7 @@ section {
 }
 
 #es-durex.es-durex .es-benefits__benefit {
-  font-family: "One Night Sans Extended Black", sans-serif;
+  font-family: 'Encode Sans Expanded', sans-serif;
   margin: 0;
   padding: 0;
   line-height: inherit;
@@ -731,15 +733,15 @@ section {
   padding: 0.5rem;
 }
 #es-durex.es-durex .es-tip__title {
-  font-family: "One Night Sans Extended Black";
+  font-weight: 800;
   font-size: clamp(1.25rem, 1.0417rem + 0.9259vw, 1.875rem);
   margin: 0;
   margin-top: 2rem;
 }
 #es-durex.es-durex .es-tip__text {
-  font-family: "One Night Sans Extended Thin";
+  font-weight: 300;
   font-size: clamp(1.125rem, 1rem + 0.5556vw, 1.5rem);
-  padding-inline: 1rem;
+  padding-inline: 1.5rem;
   margin-block: 0.5rem;
 }
 #es-durex.es-durex .es-tip__arrow {
@@ -771,13 +773,13 @@ section {
   margin-top: 7rem;
 }
 #es-durex.es-durex .es-info__title {
-  font-family: "One Night Sans Extended Thin";
+  font-weight: 300;
   font-size: clamp(1.375rem, 0.8333rem + 2.4074vw, 3rem);
   text-transform: uppercase;
   padding-inline: 2rem;
 }
 #es-durex.es-durex .es-info__title--strong {
-  font-family: "One Night Sans Extended Black";
+  font-weight: 800;
 }
 
 #es-durex.es-durex .es-info__chart-container {
@@ -833,15 +835,18 @@ section {
   margin: 0;
 }
 #es-durex.es-durex .es-info__close {
-  font-family: "One Night Sans Thin";
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 100;
   color: var(--es-size-thin);
 }
 #es-durex.es-durex .es-info__regular {
-  font-family: "One Night Sans Medium";
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 500;
   color: var(--es-size-regular);
 }
 #es-durex.es-durex .es-info__wide {
-  font-family: "One Night Sans Extended Black";
+  font-family: 'Encode Sans Expanded', sans-serif;
+  font-weight: 800;
   color: var(--es-size-wide);
 }
 #es-durex.es-durex .es-info__img {
@@ -850,7 +855,7 @@ section {
 
 @media (min-width: 768px) {
   #es-durex.es-durex .es-tip__title {
-    margin-top: 3rem;
+    margin-top: 4rem;
   }
   #es-durex.es-durex .es-tip__container {
     bottom: -2%;
@@ -937,12 +942,13 @@ section {
   font-size: clamp(1.375rem, 1.2083rem + 0.7407vw, 1.875rem);
   text-align: center;
   text-transform: uppercase;
-  font-family: "One Night Sans Extended Thin";
+  font-weight: 300;
 }
 
 #es-durex.es-durex .es-cross__strong {
   display: block;
-  font-family: "One Night Sans Extended Black";
+  display: block;
+  font-weight: 800;
 }
 #es-durex.es-durex .es-cross__container {
   display: flex;
@@ -980,12 +986,13 @@ section {
   font-size: 16px;
   text-align: center;
   color: #fff;
-  font-family: "One Night Sans Extended";
+  font-weight: 600;
   text-transform: uppercase;
 }
 
 #es-durex.es-durex .es-cross__text--bottom {
-  font-family: "One Night Sans Medium";
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 500;
   text-transform: uppercase;
 }
 
@@ -1039,12 +1046,12 @@ section {
 
 #es-durex.es-durex .es-faq__title {
   text-align: center;
-  font-family: "One Night Sans Extended Thin";
+  font-weight: 300;
   font-size: clamp(1.375rem, 0.8333rem + 2.4074vw, 3rem);
   text-transform: uppercase;
 }
 #es-durex.es-durex .es-faq__title--strong {
-  font-family: "One Night Sans Extended Black";
+  font-weight: 800;
 }
 
 #es-durex.es-durex .es-faq__container {
@@ -1054,7 +1061,8 @@ section {
 }
 
 #es-durex.es-durex .es-faq__single {
-  font-family: "One Night Sans Medium";
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 500;
   background: var(--es-red-bg);
   position: relative;
   margin: 8px 0;
