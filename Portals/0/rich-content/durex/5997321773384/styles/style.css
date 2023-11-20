@@ -438,8 +438,6 @@ section {
 #es-durex.es-durex .es-slider .es-next-arrow {
   background-color: transparent;
   border: none;
-  /* font-size: 20px; */
-  /* padding: 10px; */
 }
 #es-durex.es-durex .es-slider .es-prev-arrow {
   width: 50px;
@@ -474,8 +472,9 @@ section {
   #es-durex.es-durex .es-slider .es-slide__text-container--3:before {
     height: 100px;
     width: 100px;
-    top: -45%;
-    right: -14%;
+    top: -100%;
+    right: -11%;
+    
   }
 }
 
@@ -767,9 +766,12 @@ section {
   max-width: 100%;
 }
 #es-durex.es-durex .es-tip__img--top {
-  margin-bottom: -96px;
+  margin-bottom: -76px;
   transition: margin-bottom 0.5s ease;
   z-index: 1;
+}
+#es-durex.es-durex .es-tip:hover .es-tip__img--top {
+  margin-bottom: -5px;
 }
 #es-durex.es-durex .es-info__container {
   text-align: center;
